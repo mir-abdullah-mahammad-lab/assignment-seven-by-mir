@@ -11,7 +11,7 @@ const Footer = () => {
             <h1 className='text-white text-3xl m-10'><span className='font-bold text-3xl'>Keen</span>Keeper</h1>
             <p className='text-white'>Your personal shelf of meaningful connections. Browse, tend, and nurture the relationships that matter most.</p>
 
-            <div className='m-7o text-xl'>
+            <div className='text-xl'>
                 <p className='text-white'>Social Links</p>
                 <div className='flex flex-row justify-center gap-2'>
                     <Image

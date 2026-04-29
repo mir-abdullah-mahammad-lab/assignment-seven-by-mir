@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "John Doe",
+    "picture": "https://randomuser.me/api/portraits/men/32.jpg",
+    "email": "john.doe@gmail.com",
+    "days_since_contact": 12,
+    "status": "overdue",
+    "tags": ["college", "close friend"],
+    "bio": "Met in university. We used to prepare for exams together and still talk about career plans.",
+    "goal": 14,
+    "next_due_date": "2025-07-20"
+  },
+  {
+    "id": 2,
+    "name": "Ayesha Rahman",
+    "picture": "https://randomuser.me/api/portraits/women/44.jpg",
+    "email": "ayesha.rahman@yahoo.com",
+    "days_since_contact": 5,
+    "status": "on-track",
+    "tags": ["work", "team"],
+    "bio": "Colleague from the electrical design team. Often collaborates on AutoCAD Electrical projects.",
+    "goal": 10,
+    "next_due_date": "2025-05-05"
+  },
+  {
+    "id": 3,
+    "name": "Michael Brown",
+    "picture": "https://randomuser.me/api/portraits/men/76.jpg",
+    "email": "michael.brown@outlook.com",
+    "days_since_contact": 9,
+    "status": "almost due",
+    "tags": ["gym", "fitness"],
+    "bio": "Met at the gym in London. We usually discuss workout routines and diet plans.",
+    "goal": 10,
+    "next_due_date": "2025-05-01"
+  },
+  {
+    "id": 4,
+    "name": "Fatima Khan",
+    "picture": "https://randomuser.me/api/portraits/women/68.jpg",
+    "email": "fatima.khan@gmail.com",
+    "days_since_contact": 20,
+    "status": "overdue",
+    "tags": ["family", "cousin"],
+    "bio": "Cousin living in Dhaka. We catch up on family news and events.",
+    "goal": 15,
+    "next_due_date": "2025-04-25"
+  },
+  {
+    "id": 5,
+    "name": "Daniel Smith",
+    "picture": "https://randomuser.me/api/portraits/men/15.jpg",
+    "email": "daniel.smith@protonmail.com",
+    "days_since_contact": 2,
+    "status": "on-track",
+    "tags": ["networking", "IT"],
+    "bio": "Met during a networking event. Works in cybersecurity and shares useful learning resources.",
+    "goal": 7,
+    "next_due_date": "2025-05-03"
+  },
+  {
+    "id": 6,
+    "name": "Nusrat Jahan",
+    "picture": "https://randomuser.me/api/portraits/women/12.jpg",
+    "email": "nusrat.jahan@gmail.com",
+    "days_since_contact": 13,
+    "status": "almost due",
+    "tags": ["school", "friend"],
+    "bio": "Old school friend. We reconnect occasionally and talk about life updates.",
+    "goal": 14,
+    "next_due_date": "2025-04-30"
+  },
+  {
+    "id": 7,
+    "name": "James Wilson",
+    "picture": "https://randomuser.me/api/portraits/men/90.jpg",
+    "email": "james.wilson@company.com",
+    "days_since_contact": 1,
+    "status": "on-track",
+    "tags": ["manager", "work"],
+    "bio": "Project manager from previous job. Keeps sharing career advice and job opportunities.",
+    "goal": 10,
+    "next_due_date": "2025-05-07"
+  },
+  {
+    "id": 8,
+    "name": "Sadia Islam",
+    "picture": "https://randomuser.me/api/portraits/women/33.jpg",
+    "email": "sadia.islam@gmail.com",
+    "days_since_contact": 16,
+    "status": "overdue",
+    "tags": ["university", "study group"],
+    "bio": "Worked together on final year projects. Discussed research and engineering concepts.",
+    "goal": 12,
+    "next_due_date": "2025-04-22"
+  },
+  {
+    "id": 9,
+    "name": "Chris Evans",
+    "picture": "https://randomuser.me/api/portraits/men/52.jpg",
+    "email": "chris.evans@mail.com",
+    "days_since_contact": 8,
+    "status": "almost due",
+    "tags": ["travel", "friend"],
+    "bio": "Met while traveling. We exchange travel stories and future plans.",
+    "goal": 10,
+    "next_due_date": "2025-05-02"
+  },
+  {
+    "id": 10,
+    "name": "Rakib Hasan",
+    "picture": "https://randomuser.me/api/portraits/men/28.jpg",
+    "email": "rakib.hasan@gmail.com",
+    "days_since_contact": 3,
+    "status": "on-track",
+    "tags": ["business", "startup"],
+    "bio": "Runs a small tech startup. We often discuss ideas about automation and AI projects.",
+    "goal": 7,
+    "next_due_date": "2025-05-04"
+  }
+]

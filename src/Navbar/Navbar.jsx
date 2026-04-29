@@ -8,7 +8,7 @@ import Link from 'next/link';
 import { useState } from 'react';
 
 const Navbar = () => {
-    const [bgColorHome, setBgColorHome] = useState(false)
+    const [bgColorHome, setBgColorHome] = useState(true)
     const [bgColorTimeline, setBgColorTimeline] = useState(false)
     const [bgColorStats, setBgColorStats] = useState(false)
     
@@ -21,7 +21,7 @@ const Navbar = () => {
             ></Image>
         </div>
         <div className='flex gap-3'>
-            <Link href={'/home'}><button
+            <Link href={'/'}><button
             onClick={() => {setBgColorHome(true);
                 setBgColorTimeline(false);
                 setBgColorStats(false)
