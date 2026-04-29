@@ -1,4 +1,4 @@
-import FourCards from "../FourCards/FourCards";
+
 
 const  HomeSectionTwo = async () => {
     const data = await fetch('http://localhost:3000/friends.json')
@@ -23,14 +23,14 @@ const  HomeSectionTwo = async () => {
     console.log(countOnTrack, countNeedAttention, countInteraction,'tttttttttttttttt')
    
     return (
-        <div className=" flex flex-row gap-10 container mx-auto items-center justify-center ">
+        <div className="grid grid-cols-1 gap-2 md:grid-cols-4 container mx-auto items-center justify-center">
               <div>
-            <div className="card bg-base-100 w-50 shadow-sm text-center">
-  <div className="card-body">
-    <h2 className="text-3xl font-bold text-center">{totalFriends}</h2>
-    <p>Total friends</p>
-    
-  </div>
+            <div className="card bg-base-100 w-50 shadow-sm text-center ml-0 md:ml-10">
+              <div className="card-body">
+                <h2 className="text-3xl font-bold text-center">{totalFriends}</h2>
+                <p>Total friends</p>
+                
+              </div>
 </div>
         </div>
           <div>
