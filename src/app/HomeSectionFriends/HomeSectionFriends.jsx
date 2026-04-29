@@ -6,7 +6,7 @@ const HomeSectionFriends = async () => {
     const data = await fetch('http://localhost:3000/friends.json')
     
     const friends = await data.json()
-    console.log('ALL FRINED', friends)
+    // console.log('ALL FRINED', friends)
     return (
         <div className='flex flex-col items-center justify-center container mx-auto'>
             <p className='text-left text-2xl w-full container ml-10'>Your Friends</p>
