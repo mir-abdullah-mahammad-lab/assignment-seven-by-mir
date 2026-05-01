@@ -1,5 +1,4 @@
 import React from 'react';
-import { HiH1 } from 'react-icons/hi2';
 import FriendCard from '../FriendCard/FriendCard';
 
 const HomeSectionFriends = async () => {

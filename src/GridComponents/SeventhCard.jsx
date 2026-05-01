@@ -17,13 +17,13 @@ const SeventhCard = () => {
                     </div>
             </div>
             
-            <div className="card w-96 bg-base-100 card-xs shadow-sm">
+            <div className="card min-w-96 w-auto h-auto bg-base-100 card-xs shadow-sm">
                     <div className="card-body flex items-center justify-center">
               <div className='flex w-40 items-center justify-center'><span className='text-xl'><IoIosArchive></IoIosArchive></span><p className='text-2xl'>Archive</p></div>
                     </div>
             </div>
 
-            <div className="card w-96 bg-base-100 card-xs shadow-sm">
+            <div className="card min-w-96 w-auto h-auto bg-base-100 card-xs shadow-sm">
                     <div className="card-body flex items-center justify-center">
                <div className='flex w-40 items-center justify-center'>
                 <span className='text-xl'><MdDelete></MdDelete></span>

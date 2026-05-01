@@ -1,11 +1,19 @@
 'use client'
 import Image from 'next/image';
 import Link from 'next/link';
-import React from 'react';
+// import React, { useState } from 'react';
+// import { createContext } from 'react';
+
+// export const listContext = createContext(null)
 
 const FriendCard = ({friend}) => {
+    // const [fr, setFr] = useState(['FR', 'br'])
+    // console.log(fr, 'ffffffffffffffffffffffffffffffffffffffffff')
+    
     return (
-      <Link href={`/${friend.id}`}>
+     <div>
+       {/* <listContext.Provider value={{friendName, setFriendName}}> */}
+           <Link href={`/${friend.id}`}>
       <div>
             
             <div className="card bg-base-100 w-60 shadow-sm ml-5">
@@ -30,6 +38,10 @@ const FriendCard = ({friend}) => {
 </div>
         </div>
       </Link>
+
+      {/* </listContext.Provider> */}
+     
+     </div>
     
           
    

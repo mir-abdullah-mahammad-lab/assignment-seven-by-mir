@@ -4,10 +4,10 @@ const  HomeSectionTwo = async () => {
     const data = await fetch('http://localhost:3000/friends.json')
     
     const friends = await data.json()
-    console.log('friends', friends)
+    // console.log('friends', friends)
     
     const totalFriends = friends.length
-    console.log(totalFriends)
+    // console.log(totalFriends)
     let countOnTrack = 0;
     let countNeedAttention = 0;
     let countInteraction = 0;
@@ -20,7 +20,7 @@ const  HomeSectionTwo = async () => {
         else if( f.days_since_contact< 30){countInteraction++}
     
     })
-    console.log(countOnTrack, countNeedAttention, countInteraction,'tttttttttttttttt')
+    // console.log(countOnTrack, countNeedAttention, countInteraction,'tttttttttttttttt')
    
     return (
         <div className="grid grid-cols-1 gap-2 md:grid-cols-4 container mx-auto items-center justify-center">
